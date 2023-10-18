@@ -1,0 +1,42 @@
+.admin-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    flex: 1 0 auto;
+    border-bottom: 1px solid $blue;
+}
+
+.admin__title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.admin-form{
+    width: 360px;
+    max-width: calc(100vw - 30px);
+    margin: 0 auto;
+    @include bp(xs){
+        width: 290px;
+    }
+    input{
+        padding: 10px 15px;
+        +input{
+            margin-top: 15px;
+        }
+    }
+    button{
+        margin: 25px auto 0;
+    }
+    .warning{
+        font-size: 12px;
+        margin-top: 5px;
+        color: #FEA362;
+    }
+}

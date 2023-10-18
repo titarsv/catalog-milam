@@ -1,0 +1,130 @@
+.about-section {
+  & .section-title {
+    margin-top: 30px;
+    margin-bottom: 59px;
+    @media (max-width: 574px) {
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.about-item {
+  margin-bottom: 80px;
+  @media (max-width: 574px) {
+    margin-bottom: 58px;
+  }
+  &.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  & .col-md-5 {
+    @media (max-width: 991px) {
+      order: -1;
+    }
+  }
+}
+
+.about-text {
+  & span {
+    display: block;
+    margin-bottom: 37px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: $blue;
+    @media (max-width: 574px) {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  & p {
+    margin: 0;
+    margin-bottom: 11px;
+    font-size: 16px;
+    line-height: 150%;
+    color: $blue;
+    @media (max-width: 574px) {
+      font-size: 14px;
+    }
+  }
+
+  & ul {
+    margin-bottom: 11px;
+    & li {
+      position: relative;
+      padding-left: 26px;
+      font-size: 16px;
+      line-height: 150%;
+      color: $blue;
+      @media (max-width: 574px) {
+        padding-left: 22px;
+        font-size: 14px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 9px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: $blue;
+        @media (max-width: 574px) {
+          left: 8px;
+          width: 4px;
+          height: 4px;
+        }
+      }
+    }
+  }
+}
+
+.about-pic {
+  width: 100%;
+  height: auto;
+  @media (max-width: 991px) {
+    width: 70%;
+  }
+  @media (max-width: 574px) {
+    width: 100%;
+    margin-bottom: 42px;
+  }
+  & picture {
+    width: 100%;
+    height: 100%;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.about-pic-logo-milam {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 329px;
+  margin-bottom: 70px;
+  @media (max-width: 375px) {
+    max-width: 202px;
+    margin-bottom: 20px;
+  }
+}
+
+.about-pic-logo-milam-chemical {
+  display: block;
+  margin: 0 auto;
+  margin-top: -26px;
+  width: 100%;
+  max-width: 371px;
+  margin-bottom: 50px;
+  @media (max-width: 375px) {
+    max-width: 250px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}

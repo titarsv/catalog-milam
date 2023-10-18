@@ -1,0 +1,43 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  li{
+    margin: 0 4px;
+    &.prev{
+      margin-right: 11px;
+    }
+    &.next{
+      margin-left: 11px;
+    }
+    &.current{
+      a, span{
+        font-weight: 600;
+        color: $blue;
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+    a, span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 19px;
+      height: 17px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 120%;
+      color: $text;
+      opacity: .8;
+      background-color: transparent;
+      border: none;
+      &:hover, &:focus{
+        text-decoration: none;
+        color: $accent;
+        background-color: transparent;
+      }
+    }
+  }
+}

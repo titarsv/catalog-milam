@@ -1,0 +1,104 @@
+.not-found {
+  position: relative;
+  padding-bottom: 219px;
+  @media (max-width: 767px) {
+    padding-bottom: 130px;
+  }
+  & .breadcrumbs {
+    margin-bottom: 38px;
+    @media (max-width: 767px) {
+      margin-bottom: 34px;
+    }
+  }
+  & picture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+  }
+}
+
+.not-found-title {
+  display: block;
+  font-weight: 600;
+  font-size: 300px;
+  line-height: 363px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $blue;
+  @media (max-width: 767px) {
+    font-size: calc(130px + 170 * (100vw / 767));
+    line-height: calc(157px + 206 * (100vw / 767));
+  }
+  @media (max-width: 574px) {
+    font-size: calc(130px + (170 + 170 * 0.7) * ((100vw - 320px) / 767));
+    line-height: calc(157px + (206 + 206 * 0.7) * ((100vw - 320px) / 767));
+  }
+}
+
+.not-found-text {
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: $blue;
+  @media (max-width: 767px) {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &:nth-of-type(1) {
+    margin-top: -10px;
+    @media (max-width: 767px) {
+      margin-top: 0;
+    }
+  }
+  &:nth-of-type(2) {
+    margin-bottom: 50px;
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.not-found-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  min-width: 220px;
+  max-width: 400px;
+  min-height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none !important;
+  color: #ffffff;
+  background-color: $accent;
+  @media (max-width: 767px) {
+    min-width: 192px;
+    min-height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &:hover,
+  &:active {
+    color: #ffffff !important;
+    background-color: $light;
+  }
+}

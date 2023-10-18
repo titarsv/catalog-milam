@@ -1,0 +1,809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MultilanguageLaravelApplication\n"
+"POT-Creation-Date: 2022-07-22 09:48+0300\n"
+"PO-Revision-Date: 2022-07-22 09:49+0300\n"
+"Last-Translator: Sergay Titarenko <titarsv@gmail.colm>\n"
+"Language-Team: Sergay Titarenko <titarsv@gmail.colm>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
+"X-Poedit-Basepath: ../../../../../app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: Http\n"
+"X-Poedit-SearchPath-1: ../resources/views\n"
+"X-Poedit-SearchPath-2: ../storage/framework/views\n"
+"X-Poedit-SearchPath-3: Console\n"
+"X-Poedit-SearchPath-4: ../routes\n"
+"X-Poedit-SearchPath-5: ../storage/framework/messages\n"
+
+#: ../routes/breadcrumbs.php:7
+msgid "ТД «Пирана»"
+msgstr "TH \"Pirana\""
+
+#: ../routes/breadcrumbs.php:168
+#: ../storage/framework/messages/86106935141540c420362dfccd1050806adf37d1.php.php:165
+msgid "Поиск"
+msgstr "Search"
+
+#: ../routes/breadcrumbs.php:206
+#: ../storage/framework/messages/86106935141540c420362dfccd1050806adf37d1.php.php:203
+msgid "Оформление заказа"
+msgstr "Complete order"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:2
+#: ../storage/framework/messages/1094eb7191577d721f4a63843eb499140ef8029a.php.php:2
+msgid "Корзина"
+msgstr "Shopping bag"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:14
+msgid "Стоимость заказа без скидки"
+msgstr "Order price without discount"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:20
+msgid "Скидка за оплату на сайте"
+msgstr "Discount for online payment"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:26
+msgid "Скидка по промокоду"
+msgstr "Promo code discount"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:32
+msgid "Стоимость заказа со скидкой"
+msgstr "Discounted order price"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:39
+msgid "Промокод"
+msgstr "Promo code"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:51
+msgid "Введите промо-код"
+msgstr "Enter promo code"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:52
+msgid "неверный промо-код"
+msgstr "wrong promo code"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:65
+msgid "Доставка"
+msgstr "Shiping"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:66
+msgid "по тарифам перевозчика"
+msgstr "delivery according to the carrier's tariff"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:71
+msgid "Ваша экономия"
+msgstr "Your saving"
+
+#: ../storage/framework/messages/0086dbb75e05446e739267db69610197ebe7b74f.php.php:76
+msgid "Итого к оплате"
+msgstr "Total"
+
+#: ../storage/framework/messages/013f67d0397ad115084700efb8346ebdf988f3d3.php.php:130
+#: ../storage/framework/messages/27634e9b0dafbdea6f056ff41fa8d0c757b6644b.php.php:130
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:130
+msgid "Блог"
+msgstr "Blog"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:25
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:25
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:25
+msgid "Адрес производства"
+msgstr "Farm Address"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:30
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:30
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:30
+msgid "Телефоны"
+msgstr "Telephone"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:38
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:38
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:38
+msgid "Режим работы"
+msgstr "Schedule"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:96
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:96
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:96
+msgid "Отдел сбыта"
+msgstr "Sales department"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:110
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:110
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:110
+msgid "Отдел снабжения"
+msgstr "Purchase department"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:134
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:134
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:134
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:171
+msgid "Станьте нашим партнером!"
+msgstr "Become our partner!"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:135
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:42
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:10
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:42
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:10
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:135
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:135
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:172
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:10
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:65
+msgid "Ошибка отправки!"
+msgstr "Send error!"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:135
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:42
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:10
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:42
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:10
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:135
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:135
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:172
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:10
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:65
+msgid "Попробуйте еще раз через некоторое время."
+msgstr "Try again after a while."
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:135
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:42
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:10
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:42
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:10
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:135
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:135
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:172
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:10
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:65
+msgid "Спасибо за сообщение"
+msgstr "Thank you for message"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:135
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:42
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:10
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:42
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:10
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:135
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:135
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:172
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:10
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:65
+msgid "Наш менеджер свяжется с Вами в ближайшее время."
+msgstr "Our manager will contact you soon."
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:137
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:44
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:12
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:44
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:12
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:137
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:137
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:174
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:12
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:67
+msgid "Связаться как"
+msgstr "Contact as"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:140
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:47
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:15
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:47
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:15
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:140
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:140
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:177
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:15
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:70
+msgid "Поставщик"
+msgstr "Provider"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:144
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:51
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:19
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:51
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:19
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:144
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:144
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:181
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:19
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:74
+msgid "Дистрибьютор"
+msgstr "Distributor"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:148
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:55
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:23
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:55
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:23
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:148
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:148
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:185
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:23
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:78
+msgid "Потребитель"
+msgstr "Consumer"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:152
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:59
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:27
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:59
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:27
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:152
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:152
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:189
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:27
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:82
+msgid "Имя"
+msgstr "Name"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:152
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:156
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:159
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:163
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:59
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:63
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:66
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:70
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:27
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:31
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:34
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:38
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:59
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:63
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:66
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:70
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:27
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:31
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:34
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:38
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:152
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:156
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:159
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:163
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:152
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:156
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:159
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:163
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:189
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:193
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:196
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:200
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:27
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:31
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:34
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:38
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:82
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:86
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:89
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:93
+msgid "Обязательное поле"
+msgstr "Required field"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:156
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:63
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:31
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:63
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:31
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:156
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:156
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:193
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:31
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:86
+msgid "Неправильный email"
+msgstr "Wrong email"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:159
+#: ../storage/framework/messages/3699fa9806dcbf14c98ab997e307a99ab56c5036.php.php:53
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:66
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:34
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:66
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:34
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:159
+#: ../storage/framework/messages/fa935da91cd86723cbf64164d444c7d1eb87477e.php.php:53
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:159
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:196
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:34
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:89
+#: ../storage/framework/views/e5ea348955f1a3e02f0279468e884406a42c4da7.php:53
+msgid "Телефон"
+msgstr "Telephone"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:159
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:66
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:34
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:66
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:34
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:159
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:159
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:196
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:34
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:89
+msgid "Неправильный номер"
+msgstr "Wrong number"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:163
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:70
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:38
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:70
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:38
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:163
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:163
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:200
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:38
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:93
+msgid "Текст сообщения"
+msgstr "Message text"
+
+#: ../storage/framework/messages/0e7d41a342a132c161fb4dd7eaf7003cd2e2dc88.php.php:165
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:40
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:40
+#: ../storage/framework/messages/f01443f8191dc245424863579b790946011b75c4.php.php:165
+#: ../storage/framework/views/1d0a8336efe9579fac828d8b68dffe22446e6210.php:165
+#: ../storage/framework/views/2042032c4e114b99a8b4010e520e88c859fac4ee.php:202
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:40
+msgid "Отправить"
+msgstr "Send"
+
+#: ../storage/framework/messages/131dca44efb7e398acc77ca4504bc10e8de2c598.php.php:3
+msgid "Скидочный купон на сайте Milam"
+msgstr "Discount coupon on Milam website"
+
+#: ../storage/framework/messages/1f84cde771d290cd9cabcbc8adab072c88f7b897.php.php:5
+#: ../storage/framework/messages/2986a137c9b55fd1a3546f917f4413cb930a334e.php.php:5
+#: ../storage/framework/messages/469f4c11f3af4c8c1240879aee9b4eeb73d825e3.php.php:5
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:22
+#: ../storage/framework/messages/a4ad7f5ccbe7b3ca80f55cd5bbc981fdbdfbc99a.php.php:5
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:22
+#: ../storage/framework/views/2c29d4fad9e1e7670525bc37fe2147aadafc2c65.php:5
+#: ../storage/framework/views/335ff20baf5cd03f2fb6b1316e39eda901e2cb1c.php:5
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:22
+msgid "Продукция"
+msgstr "Products"
+
+#: ../storage/framework/messages/25404835d1b1df21cdf8146cc15c71cf7a25cbe3.php.php:11
+#: ../storage/framework/messages/dd775cd986391221cfd162aa9dd339fda31f983c.php.php:11
+#: ../storage/framework/views/f4335bc91d285ba5ed25c29ce75480088eb6b1a5.php:11
+msgid "Очистить фильтры"
+msgstr "Clear filters"
+
+#: ../storage/framework/messages/2ea683986a52e5a302324191caa965c5c4db28c9.php.php:3
+#: ../storage/framework/messages/2ea683986a52e5a302324191caa965c5c4db28c9.php.php:10
+#: ../storage/framework/messages/326dc4797e4bdf75816069f48f7dc601a0ddc8f4.php.php:3
+#: ../storage/framework/messages/326dc4797e4bdf75816069f48f7dc601a0ddc8f4.php.php:10
+#: ../storage/framework/views/4658be59a3ad7109b9b2d885d44d978b3598fa91.php:3
+#: ../storage/framework/views/4658be59a3ad7109b9b2d885d44d978b3598fa91.php:10
+msgid "Авторизация"
+msgstr "Authorization"
+
+#: ../storage/framework/messages/2ea683986a52e5a302324191caa965c5c4db28c9.php.php:21
+#: ../storage/framework/messages/326dc4797e4bdf75816069f48f7dc601a0ddc8f4.php.php:21
+#: ../storage/framework/views/4658be59a3ad7109b9b2d885d44d978b3598fa91.php:22
+msgid "Вход в админ панель"
+msgstr "Login to admin panel"
+
+#: ../storage/framework/messages/2ea683986a52e5a302324191caa965c5c4db28c9.php.php:25
+#: ../storage/framework/messages/326dc4797e4bdf75816069f48f7dc601a0ddc8f4.php.php:25
+#: ../storage/framework/views/4658be59a3ad7109b9b2d885d44d978b3598fa91.php:26
+msgid "Логин"
+msgstr "Login"
+
+#: ../storage/framework/messages/2ea683986a52e5a302324191caa965c5c4db28c9.php.php:29
+#: ../storage/framework/messages/326dc4797e4bdf75816069f48f7dc601a0ddc8f4.php.php:29
+#: ../storage/framework/views/4658be59a3ad7109b9b2d885d44d978b3598fa91.php:30
+msgid "Пароль"
+msgstr "Password"
+
+#: ../storage/framework/messages/2ea683986a52e5a302324191caa965c5c4db28c9.php.php:33
+#: ../storage/framework/messages/326dc4797e4bdf75816069f48f7dc601a0ddc8f4.php.php:33
+#: ../storage/framework/views/4658be59a3ad7109b9b2d885d44d978b3598fa91.php:34
+msgid "Войти"
+msgstr "Log in"
+
+#: ../storage/framework/messages/3699fa9806dcbf14c98ab997e307a99ab56c5036.php.php:20
+#: ../storage/framework/messages/fa935da91cd86723cbf64164d444c7d1eb87477e.php.php:20
+#: ../storage/framework/views/e5ea348955f1a3e02f0279468e884406a42c4da7.php:20
+msgid "Дистрибьюторы"
+msgstr "Distributors"
+
+#: ../storage/framework/messages/3699fa9806dcbf14c98ab997e307a99ab56c5036.php.php:21
+#: ../storage/framework/messages/fa935da91cd86723cbf64164d444c7d1eb87477e.php.php:21
+#: ../storage/framework/views/e5ea348955f1a3e02f0279468e884406a42c4da7.php:21
+msgid "Поставщики"
+msgstr "Suppliers"
+
+#: ../storage/framework/messages/3699fa9806dcbf14c98ab997e307a99ab56c5036.php.php:32
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:2
+#: ../storage/framework/messages/fa935da91cd86723cbf64164d444c7d1eb87477e.php.php:32
+#: ../storage/framework/views/e5ea348955f1a3e02f0279468e884406a42c4da7.php:32
+msgid "Область"
+msgstr "Region"
+
+#: ../storage/framework/messages/3699fa9806dcbf14c98ab997e307a99ab56c5036.php.php:41
+#: ../storage/framework/messages/fa935da91cd86723cbf64164d444c7d1eb87477e.php.php:41
+#: ../storage/framework/views/e5ea348955f1a3e02f0279468e884406a42c4da7.php:41
+msgid "Дистрибьтор"
+msgstr "Distributor"
+
+#: ../storage/framework/messages/3699fa9806dcbf14c98ab997e307a99ab56c5036.php.php:47
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:11
+#: ../storage/framework/messages/fa935da91cd86723cbf64164d444c7d1eb87477e.php.php:47
+#: ../storage/framework/views/e5ea348955f1a3e02f0279468e884406a42c4da7.php:47
+msgid "Город"
+msgstr "City"
+
+#: ../storage/framework/messages/44a54d1aa7a56d0f805a8e3537f920cc05b4cdce.php.php:94
+#: ../storage/framework/messages/44a54d1aa7a56d0f805a8e3537f920cc05b4cdce.php.php:95
+#: Http/Controllers/CategoriesController.php:94
+#: Http/Controllers/CategoriesController.php:95
+msgid "Страница"
+msgstr "Page"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:99
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:99
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:125
+msgid "Описание"
+msgstr "Description"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:104
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:104
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:130
+msgid "Объем"
+msgstr "Volume"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:125
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:125
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:151
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:129
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:129
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:155
+msgid "Инструкция по применению"
+msgstr "Direction to use"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:134
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:134
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:160
+msgid "Меры безопасности"
+msgstr "Security measures"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:139
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:139
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:165
+msgid "Документы / Сертификаты"
+msgstr "Documents / Certificates"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:142
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:142
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:168
+msgid "Сертификат"
+msgstr "Certificate"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:147
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:147
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:173
+msgid "Состав"
+msgstr "Contains"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:152
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:152
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:178
+msgid "Срок годности"
+msgstr "Expiration date"
+
+#: ../storage/framework/messages/5d654eaf2fae968af3f96b15bb39cbfd93f616b2.php.php:156
+#: ../storage/framework/messages/5f0ccafbde3bb73a64e10bedca813d69dbc51603.php.php:156
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:182
+msgid "Условия хранения"
+msgstr "Storage terms"
+
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:3
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:24
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:25
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:3
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:24
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:25
+msgid "Карта товаров"
+msgstr "Products map"
+
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:33
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:33
+msgid "ТОВАРЫ"
+msgstr "PRODUCTS"
+
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:34
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:42
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:3
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:24
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:25
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:34
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:42
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:3
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:24
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:25
+msgid "Карта категорий"
+msgstr "Category map"
+
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:35
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:43
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:42
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:74
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:35
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:43
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:42
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:74
+msgid "Показано"
+msgstr "Shown"
+
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:35
+#: ../storage/framework/messages/68d7a5c213b9ec9ef1a8e60ca0ba9ea61a4ac71a.php.php:43
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:35
+#: ../storage/framework/views/64e968f714ce5fd97b9c1a9a2be3e0c9acbb1f6b.php:43
+msgid "из"
+msgstr "from"
+
+#: ../storage/framework/messages/6b6b2524c609ded17c277db855e4639e0601c392.php.php:3
+#: ../storage/framework/messages/e0e4f58077cd949ff2ab18cddbcbbd61e0315aa2.php.php:3
+#: ../storage/framework/views/4f8ee7e5c734742721eaf96ad6596928e6a0ca37.php:3
+msgid "Ошибка 404. Страница не найдена"
+msgstr "Error 404. Page not found"
+
+#: ../storage/framework/messages/6b6b2524c609ded17c277db855e4639e0601c392.php.php:11
+#: ../storage/framework/messages/86106935141540c420362dfccd1050806adf37d1.php.php:7
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:36
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:59
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:154
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:59
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:154
+#: ../storage/framework/messages/e0e4f58077cd949ff2ab18cddbcbbd61e0315aa2.php.php:11
+#: ../storage/framework/views/4f8ee7e5c734742721eaf96ad6596928e6a0ca37.php:11
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:36
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:59
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:156
+msgid "Главная"
+msgstr "Home"
+
+#: ../storage/framework/messages/6b6b2524c609ded17c277db855e4639e0601c392.php.php:12
+#: ../storage/framework/messages/e0e4f58077cd949ff2ab18cddbcbbd61e0315aa2.php.php:12
+#: ../storage/framework/views/4f8ee7e5c734742721eaf96ad6596928e6a0ca37.php:12
+msgid "Страница не найдена"
+msgstr "Page not found"
+
+#: ../storage/framework/messages/6b6b2524c609ded17c277db855e4639e0601c392.php.php:17
+#: ../storage/framework/messages/e0e4f58077cd949ff2ab18cddbcbbd61e0315aa2.php.php:17
+#: ../storage/framework/views/4f8ee7e5c734742721eaf96ad6596928e6a0ca37.php:17
+msgid ""
+"Простите, но у нас возникли проблемы с поиском страницы, которую Вы "
+"запрашиваете."
+msgstr "Sorry, but we're having trouble finding the page you're requesting."
+
+#: ../storage/framework/messages/6b6b2524c609ded17c277db855e4639e0601c392.php.php:18
+#: ../storage/framework/messages/e0e4f58077cd949ff2ab18cddbcbbd61e0315aa2.php.php:18
+#: ../storage/framework/views/4f8ee7e5c734742721eaf96ad6596928e6a0ca37.php:18
+msgid "Вы можете связаться с нашими менеджерами в форме внизу страницы либо:"
+msgstr "You can contact our managers in the form at the bottom of the page or:"
+
+#: ../storage/framework/messages/6b6b2524c609ded17c277db855e4639e0601c392.php.php:19
+#: ../storage/framework/messages/e0e4f58077cd949ff2ab18cddbcbbd61e0315aa2.php.php:19
+#: ../storage/framework/views/4f8ee7e5c734742721eaf96ad6596928e6a0ca37.php:19
+msgid "Перейти на главную"
+msgstr "Go to home"
+
+#: ../storage/framework/messages/6f9af4ea5fe2957ce4a88e5c16a91790e471d27e.php.php:530
+#: Http/Controllers/CheckoutController.php:530
+msgid "Выбрать отделение"
+msgstr "Select department"
+
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:33
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:33
+msgid "СТРАНИЦЫ"
+msgstr "PAGES"
+
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:34
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:73
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:34
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:73
+msgid "Карта товарного каталога"
+msgstr "Product catalog map"
+
+#: ../storage/framework/messages/863f7ebb549fd83543737ce2caf9bc0589aa44c9.php.php:41
+#: ../storage/framework/views/a82f2335d3eac009e9417d0c21d1b2b8eb271470.php:41
+msgid "КАТЕГОРИИ"
+msgstr "CATEGORIES"
+
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:27
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:27
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:27
+msgid "ООО Торговый Дом «Пирана»"
+msgstr "LLC Trading House \"Pirana\""
+
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:28
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:28
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:28
+msgid "Производство Бытовой Химии"
+msgstr "Production of household chemicals"
+
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:32
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:227
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:32
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:227
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:32
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:231
+msgid "Ваша область"
+msgstr "Your region"
+
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:99
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:99
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:99
+msgid "Открыть всю категорию"
+msgstr "Open all category"
+
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:105
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:105
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:105
+msgid "Вся продукция"
+msgstr "All products"
+
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:141
+#: ../storage/framework/messages/86a27bad219e3b33d6518b92dcb71adb168615bb.php.php:222
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:72
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:72
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:141
+#: ../storage/framework/messages/d9d09ca247a8aeda3f9ef2a81a0da1576eecb944.php.php:222
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:95
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:143
+#: ../storage/framework/views/af17627c964478b0a6f74da5eac375e18e5e6ac7.php:226
+msgid "Задать вопрос"
+msgstr "Ask a question"
+
+#: ../storage/framework/messages/8f78039c14481bd605e451aaa6a6cafa243e6f58.php.php:61
+#: ../storage/framework/messages/8f78039c14481bd605e451aaa6a6cafa243e6f58.php.php:121
+#: ../storage/framework/messages/a2c7ba8a3698302b6d7ea5190142262462e12069.php.php:61
+#: ../storage/framework/messages/a2c7ba8a3698302b6d7ea5190142262462e12069.php.php:121
+#: ../storage/framework/views/c3532ed363a847caff7c0dda8696470cd0c1cb5e.php:61
+#: ../storage/framework/views/c3532ed363a847caff7c0dda8696470cd0c1cb5e.php:121
+msgid "Фильтры"
+msgstr "Filters"
+
+#: ../storage/framework/messages/8f78039c14481bd605e451aaa6a6cafa243e6f58.php.php:83
+#: ../storage/framework/messages/a2c7ba8a3698302b6d7ea5190142262462e12069.php.php:83
+#: ../storage/framework/views/c3532ed363a847caff7c0dda8696470cd0c1cb5e.php:83
+msgid "Отобразить фильтры"
+msgstr "Show filters"
+
+#: ../storage/framework/messages/8f78039c14481bd605e451aaa6a6cafa243e6f58.php.php:128
+#: ../storage/framework/messages/a2c7ba8a3698302b6d7ea5190142262462e12069.php.php:128
+#: ../storage/framework/views/c3532ed363a847caff7c0dda8696470cd0c1cb5e.php:128
+msgid "Назад"
+msgstr "Back"
+
+#: ../storage/framework/messages/8f78039c14481bd605e451aaa6a6cafa243e6f58.php.php:129
+#: ../storage/framework/messages/a2c7ba8a3698302b6d7ea5190142262462e12069.php.php:129
+#: ../storage/framework/views/c3532ed363a847caff7c0dda8696470cd0c1cb5e.php:129
+msgid "Готово"
+msgstr "Done"
+
+#: ../storage/framework/messages/929b398f87a0b0ed1c4f0e3254f4ae2a71884e76.php.php:6
+#: ../storage/framework/messages/f6241a960c395747a7f021584422ae29aace05bd.php.php:6
+#: ../storage/framework/views/9b6d02de623fa83e5da8cd6dd5ff1cace80a97c5.php:6
+msgid "Нет товаров, соответствующих Вашему выбору."
+msgstr "There are no products matching the selection."
+
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:4
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:4
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:4
+msgid "ООО Торговый дом пирана"
+msgstr "Pirana Trade House LLC"
+
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:13
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:13
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:13
+msgid "ООО Торговый дом Пирана | Все права защищены"
+msgstr "Pirana Trade House LLC | All rights reserved"
+
+#: ../storage/framework/messages/97f6763a7ef84b21008e3de6afd5ffa0f3feac1e.php.php:41
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:5
+#: ../storage/framework/messages/d2ab1bc037e43df5772c3691a474bb4eec4988cf.php.php:41
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:5
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:5
+#: ../storage/framework/views/64e6efdd24db02ed9763bd4781512ff0a94ff72d.php:64
+msgid "Свяжитесь с нами!"
+msgstr "Contact us!"
+
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:6
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:6
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:6
+msgid "Заполните форму и наши менеджеры ответят вам"
+msgstr "Fill out the form and our managers will contact with you"
+
+#: ../storage/framework/messages/a8705b6ea57bd7cad1a7dbc8b4a1253d8969012d.php.php:7
+#: ../storage/framework/messages/df0ca3107cbd03385904f1f33763e91a7052e13e.php.php:7
+#: ../storage/framework/views/51a9d7b6dcf99b27a0ad93feea4f6f906ffe115f.php:7
+msgid "Контакты"
+msgstr "Contacts"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:116
+#: Http/Controllers/SettingsController.php:116
+msgid "Самовывоз"
+msgstr "Self-delivery"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:117
+#: Http/Controllers/SettingsController.php:117
+msgid "Новая Почта"
+msgstr "Nova Poshta"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:118
+#: Http/Controllers/SettingsController.php:118
+msgid "Justin"
+msgstr "Justin"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:119
+#: Http/Controllers/SettingsController.php:119
+msgid "Курьер"
+msgstr "Courier"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:120
+#: Http/Controllers/SettingsController.php:120
+msgid "Другое"
+msgstr "Other"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:123
+#: Http/Controllers/SettingsController.php:123
+msgid "Через WayForPay"
+msgstr "By WayForPay"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:124
+#: Http/Controllers/SettingsController.php:124
+msgid "Наличными при самовывозе"
+msgstr "Сash payment upon self-delivery"
+
+#: ../storage/framework/messages/e05ed77c4acdc829c553d27fbb000f136bd5068c.php.php:125
+#: Http/Controllers/SettingsController.php:125
+msgid "На карту Приватбанка"
+msgstr "To Privatbank card"
+
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:4
+msgid "Выберите область"
+msgstr "Select region"
+
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:14
+msgid "Выберите город"
+msgstr "Choose city"
+
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:19
+msgid "Сначала выберите область"
+msgstr "Select a region first"
+
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:24
+msgid "Отделение"
+msgstr "Department"
+
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:27
+msgid "Выберите отделение"
+msgstr "Select a department"
+
+#: ../storage/framework/messages/eea0dbbcacfe71eada20257ff128b99aa5059936.php.php:32
+msgid "Сначала выберите город"
+msgstr "Please select a city first"
+
+#: ../storage/framework/messages/f50c4270617a0642e32abd0beaaf3d74e6bf36a7.php.php:713
+#: Http/Controllers/UserController.php:713
+msgid "Заказ в 1 клик"
+msgstr "Order in 1 click"
+
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:76
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:88
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:102
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:114
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:134
+#: ../storage/framework/views/651d54ec524da121dda47899cfd9e93b4dece889.php:142
+msgid "купить в Украине - фото, отзывы"
+msgstr "buy in Ukraine - photos, reviews"

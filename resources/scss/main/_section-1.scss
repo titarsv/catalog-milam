@@ -1,0 +1,219 @@
+.main-slider{
+  height: 550px;
+  min-height: 550px;
+  overflow: hidden;
+  @include bp(md){
+    height: 420px;
+    min-height: 420px;
+  }
+  @include bp(xs){
+    height: 75vw;
+    min-height: 75vw;
+  }
+  &:not(.slick-initialized){
+    display: flex;
+  }
+  .slick-track{
+    height: 100%;
+  }
+  .slick-list{
+    height: 100%;
+  }
+  .slick-slide{
+    height: 100%;
+    >div{
+      height: 100%;
+    }
+  }
+  .slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    &:hover, &:focus{
+      text-decoration: none;
+    }
+    >picture{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      width: 100%;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .container{
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .slick-arrow{
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    width: 56px;
+    height: 56px;
+    @include bp(xs){
+      width: 20px;
+      height: 20px;
+    }
+    &:before{
+      content: '';
+      width: 21px;
+      height: 40px;
+      background-color: #fff;
+      transition: linear .2s;
+      @include bp(xs){
+        width: 8px;
+        height: 15px;
+      }
+    }
+    &:hover{
+      &:before{
+        background-color: $blue;
+      }
+    }
+    &.slick-prev{
+      left: 65px;
+      @include bp(lg){
+        left: 30px;
+      }
+      @include bp(sm){
+        left: 15px;
+      }
+      @include bp(xs){
+        left: 6px;
+      }
+      &:before{
+        -webkit-mask: url('/images/icons/arrow-left.svg');
+        mask: url('/images/icons/arrow-left.svg');
+        -webkit-mask-position: center;
+        mask-position: center;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+      }
+    }
+    &.slick-next{
+      right: 65px;
+      @include bp(lg){
+        right: 30px;
+      }
+      @include bp(sm){
+        right: 15px;
+      }
+      @include bp(xs){
+        right: 6px;
+      }
+      &:before{
+        -webkit-mask: url('/images/icons/arrow-right.svg');
+        mask: url('/images/icons/arrow-right.svg');
+        -webkit-mask-position: center;
+        mask-position: center;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+      }
+    }
+  }
+  .slick-dots{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    @include bp(md){
+      bottom: 35px;
+    }
+    @include bp(xs){
+      bottom: 18px;
+    }
+    li{
+      display: flex;
+      margin: 0 10px;
+      @include bp(xs){
+        margin: 0 5px;
+      }
+      &.slick-active{
+        button{
+          opacity: 1;
+        }
+      }
+      button{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        font-size: 0;
+        padding: 0;
+        border: none;
+        background-color: #fff;
+        opacity: .5;
+        transition: linear .2s;
+        @include bp(xs){
+          width: 7px;
+          height: 7px;
+        }
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.main-wrapper{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include bp(lg){
+    width: 800px;
+    margin: 0 auto;
+  }
+  @include bp(md){
+    width: 600px;
+  }
+  @include bp(sm){
+    width: calc(100% - 160px);
+  }
+  @include bp(xs){
+    width: calc(100% - 40px);
+    margin-top: -10px;
+  }
+  span{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    text-transform: uppercase;
+    @include bp(xs){
+      font-size: 21px;
+      line-height: 25px;
+    }
+  }
+  .btn{
+    margin: 50px auto 0;
+    @include bp(xs){
+      margin-top: 20px;
+    }
+  }
+}

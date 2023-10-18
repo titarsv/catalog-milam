@@ -1,0 +1,37 @@
+@extends('public.layouts.main')
+
+@section('meta')
+    <title>Восстановление пароля</title>
+    <meta name="description" content="{!! $settings->meta_description !!}">
+    <meta name="keywords" content="{!! $settings->meta_keywords !!}">
+@endsection
+
+@section('breadcrumbs')
+    {!! Breadcrumbs::render('forgotten') !!}
+@endsection
+
+@section('content')
+    <main>
+        <div class="section-login">
+            <div class="container hidden-sm hidden-md hidden-lg">
+                {!! Breadcrumbs::render('forgotten') !!}
+            </div>
+            <div class="container">
+                <div class="login-wrapper">
+                    <div class="login-inner">
+                        <div class="registration">
+                            <img src="/images/acc-logo.svg" class="lazy" alt="">
+                            <div class="login-title">{{ trans('app.Password_recovery') }}</div>
+                            <p>{{ trans('app.A_letter_has_been_sent_to_your_e-mail_To_complete_the_password_recovery_procedure_please_follow_the_link_provided_in_the_letter') }}</p>
+                        </div>
+                    </div>
+                    <picture>
+                        <source srcset="/images/pixel.webp" data-original="/images/reset.webp" class="lazy-web" type="image/webp">
+                        <source srcset="/images/pixel.png" data-original="/images/reset.jpg" class="lazy-web" type="image/jpg">
+                        <img src="/images/pixel.png" data-original="/images/reset.jpg"  class="lazy" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </main>
+@endsection

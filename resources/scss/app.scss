@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixin';
+
+// Pagination
+@import "pagination";
+
+// Popup
+@import "popup";
+
+// Main
+@import "main/section-2";
+@import "main/section-3";
+@import "main/section-4";
+@import "main/section-5";
+@import "main/section-6";
+
+// Footer
+@import "footer";
+
+// Pages
+@import "product";
+@import "contacts";
+@import "catalog";
+@import "categories";
+@import "partners";
+@import "404";
+@import "about";
+@import "login";

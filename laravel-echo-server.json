@@ -1,0 +1,39 @@
+{
+	"authHost": "http://onlygoods.lh",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+      {
+        "appId": "85be3a12deafd830",
+        "key": "22dac5870b8108a96f7c9675c65e1825"
+      }
+    ],
+	"database": "redis",
+	"databaseConfig": {
+        "redis": {
+          "host": "redis",
+          "port": 6379,
+          "db": 0,
+		  "keyPrefix": "mamun_database_"
+        }
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "*",
+		"allowMethods": "GET, POST",
+		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+	}
+}

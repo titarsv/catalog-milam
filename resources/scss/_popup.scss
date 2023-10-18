@@ -1,0 +1,162 @@
+.mfp-bg{
+  background: rgba(0, 49, 116, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 10005;
+  opacity: 1;
+}
+
+.mfp-wrap{
+  z-index: 10006;
+}
+
+.mfp-container{
+  @media (max-width: 900px){
+    padding: 0;
+  }
+}
+
+.popup{
+  position: relative;
+  margin: 0 auto;
+  background-color: $blue;
+  width: 730px;
+  max-width: calc(100vw - 30px);
+  padding: 60px 145px 80px 160px;
+  color: #fff;
+  @include bp(sm){
+    padding: 60px 60px 80px 60px;
+  }
+  @include bp(xs){
+    padding: 40px 15px 75px;
+  }
+  .mfp-close{
+    top: 20px;
+    right: 16px;
+    opacity: 1;
+    width: 37px;
+    height: 37px;
+    @include bp(xs){
+      right: 5px;
+      top: 5px;
+      width: 26px;
+      height: 26px;
+    }
+    svg{
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    &:hover{
+      svg{
+        path{
+          fill: $light;
+        }
+      }
+    }
+  }
+}
+
+.popup-title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 42px;
+  @include bp(xs){
+    text-align: center;
+    margin-bottom: 27px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.swal2-container.swal2-shown{
+  background: rgba(0, 49, 116, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 10025;
+}
+
+.swal2-modal{
+  background-color: $blue !important;
+  width: 730px !important;
+  max-width: calc(100vw - 30px);
+  border-radius: 0;
+  color: #fff;
+  padding: 60px 60px 110px !important;
+  @include bp(sm){
+    padding: 60px 30px 80px !important;
+  }
+  @include bp(xs){
+    padding: 40px 15px 80px !important;
+  }
+  .swal2-icon{
+    display: none !important;
+  }
+  .swal2-title{
+    font-family: $default;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 42px;
+    text-align: center;
+    color: #fff;
+    @include bp(xs){
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 28px;
+    }
+  }
+  .swal2-content{
+    font-family: $default;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+  }
+  .swal2-buttonswrapper{
+    margin-top: 45px;
+    @include bp(xs){
+      margin-top: 25px;
+    }
+  }
+  .swal2-styled{
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+    font-family: $default;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff !important;
+    background-color: transparent !important;
+    border-radius: 30px;
+    outline: none !important;
+    box-shadow: none !important;
+    @include bp(xs){
+      height: 40px;
+      width: 174px;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &:hover{
+      color: $blue;
+      background-color: #fff !important;
+    }
+  }
+}
+
+.lg-backdrop{
+    z-index: 10040;
+}
+
+.lg-outer{
+    z-index: 10050;
+}
+
+#lg-download{
+    display: none;
+}

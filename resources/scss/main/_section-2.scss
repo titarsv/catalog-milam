@@ -1,0 +1,219 @@
+.products-section{
+  padding: 75px 0 10px;
+  @include bp(xs){
+    padding: 50px 0 15px;
+  }
+  .container{
+    @include bp(xs){
+      padding: 0 5px;
+    }
+  }
+}
+
+.section-title{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  @include bp(xs){
+    font-size: 16px;
+    line-height: 19px;
+  }
+  &:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #DFDFDF;
+  }
+  div, h1{
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    @include bp(xs){
+      padding: 0 10px;
+    }
+    &:before{
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: $blue;
+      margin-right: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+      @include bp(xs){
+        margin-right: 14px;
+        top: -1px;
+      }
+    }
+    &:after{
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: $blue;
+      margin-left: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+      @include bp(xs){
+        margin-left: 14px;
+        top: -1px;
+      }
+    }
+  }
+  h1{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    @include bp(xs){
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+.products-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  padding: 0 22px;
+  @include bp(lg){
+    padding: 0 59px;
+  }
+  @include bp(md){
+    padding: 0 86px;
+  }
+  @include bp(sm){
+    padding: 0 11px;
+    justify-content: center;
+  }
+  @include bp(xs){
+    margin-top: 25px;
+    padding: 0;
+  }
+}
+
+.product-item{
+  width: 244px;
+  min-width: 244px;
+  margin: 0 15px 55px;
+  text-decoration: none;
+  @include bp(xs){
+    margin: 0 10px 15px;
+    width: calc(50vw - 25px);
+    min-width: calc(50vw - 25px);
+  }
+  &:hover, &:focus{
+    text-decoration: none;
+  }
+  &:hover{
+    .product-title{
+      color: $accent;
+    }
+    .path1{
+      transform: rotate(-360deg);
+      fill: $accent;
+    }
+      .product-pic{
+          picture{
+              img{
+                  transform: scale(1.2);
+                  border-radius: 50%;
+              }
+          }
+      }
+  }
+}
+
+.product-pic{
+  width: 100%;
+  height: 244px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  @include bp(xs){
+    height: calc(50vw - 25px);
+    margin-bottom: 5px;
+  }
+  svg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    margin-left: -4px;
+    z-index: 2;
+    @include bp(xs){
+      width: 100%;
+      height: 100%;
+      margin-left: -3px;
+    }
+    path{
+      transform-origin: center;
+      transform: rotate(0deg);
+      transition: linear .4s;
+    }
+  }
+  picture{
+    width: 180px;
+    height: 180px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: linear .2s;
+    position: relative;
+    &:before{
+      content: "";
+      display: block;
+      border: 20px solid #fff;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      z-index: 1;
+      width: calc(100% + 40px);
+      height: calc(100% + 40px);
+      border-radius: 50%;
+    }
+    @include bp(xs){
+      width: calc(50vw - 25px - 11vw);
+      height: calc(50vw - 25px - 11vw);
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      transition: linear .2s;
+      transition-property: transform;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}
+
+.product-title{
+  display: block;
+  color: $blue;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  @include bp(xs){
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
